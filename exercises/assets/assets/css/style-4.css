@@ -1,0 +1,79 @@
+/*  ============= WEB BROWSER RESETS ============ */
+* { margin: 0; padding: 0; border: none }
+*, *::before, *::after { box-sizing: border-box }
+html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
+scroll-behavior: smooth; scroll-padding-top: 20px }
+body { max-width: 1920px; line-height: 1.5; margin-left: auto; margin-right: auto; 
+min-height: 100vh; text-rendering: optimizeSpeed }  
+img { width: 100%; height: auto; display: block }
+h1, h2, h3, h4 { width: 100% }
+input, button, textarea, select { font: inherit }
+
+/* ================= ENDS ================ */
+
+:root {
+    --fs-sm: clamp(0.8rem, 0.17vw + 0.76rem, 0.89rem);
+    --fs-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
+    --fs-md: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+    --fs-lg: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
+    --fs-xl: clamp(1.95rem, 1.56vw + 1.56rem, 2.81rem);
+    --fs-xxl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
+    --fs-xxxl: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
+    }
+
+/* Desktops */
+@media (min-width: 768px) { body { padding: 4% 20% } }
+
+/* Mobiles */
+@media (max-width: 767px) { body { padding: 12% 8% } }
+
+
+/* Web page */
+body {
+    background-color: #FFFFBD;
+    font-family: 'Merriweather', serif;
+}
+
+/* Main heading */
+h1 {  
+    font-size: var(--fs-xxxl);
+    line-height: 1.1;
+    font-weight: normal;
+    color: #3434B0;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+/* Small headings */
+h2 {  
+    font-size: var(--fs-md);
+    color:#3434B0;
+    line-height: 1.5;
+    margin-bottom: 42px;
+}
+
+/* Smaller headings */
+h3 {  
+    font-size: var(--fs-lg);
+    color: #000;
+    letter-spacing:-1px;
+    margin-top: 40px;
+    margin-bottom: 2px;
+    line-height: 1.2;
+}
+
+/* Text paragraphs */
+p {
+
+    font-size: var(--fs-base);
+    color: #455C80;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+
+img{
+    margin-bottom: 32px;
+    box-shadow: 8px 8px 10px #888;
+}
